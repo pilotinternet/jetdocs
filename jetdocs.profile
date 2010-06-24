@@ -226,14 +226,6 @@ function _jetdocs_cleanup($success, $results='') {
   cache_clear_all('*', 'cache_content', TRUE);
 }
 
-/**
- * Set jetdocs as the default install profile
- */
-function system_form_install_select_profile_form_alter(&$form, $form_state) {
-  foreach ($form['profile'] as $key => $element) {
-    $form['profile'][$key]['#value'] = 'jetdocs';
-  }
-}
 
 /**
  * Consolidate logging.

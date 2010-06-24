@@ -36,11 +36,11 @@ function _jetdocs_get_branches() {
   $path = realpath('.');
 
   $branch = new stdClass;
-  $branch->branch_name = 'jumpjet';
-  $branch->title = 'JumpJet';
-  $branch->directories = $path . '/profiles/jumpjet/libraries/jumpjet';
+  $branch->branch_name = 'jet';
+  $branch->title = 'Jet';
+  $branch->directories = $path;
   $branch->weight = 5;
-  $items['jumpjet'] = $branch;
+  $items['jet'] = $branch;
 
   $branch = new stdClass;
   $branch->branch_name = 'drupal_5';
