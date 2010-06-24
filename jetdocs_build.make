@@ -14,9 +14,9 @@ projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "get"
 projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.16.77/+download/pressflow-6.16.77.tar.gz"
 
-;=== Now we go get our JumpJet install profile
-projects[jumpjet][type] = "profile"
-projects[jumpjet][download][type] = "git"
-projects[jumpjet][download][url] = "git://github.com/pilotinternet/jetdocs.git"
+;=== Now we go get our JetDocs install profile
+projects[jetdocs][type] = "profile"
+projects[jetdocs][download][type] = "git"
+projects[jetdocs][download][url] = "git://github.com/pilotinternet/jetdocs.git"
 
 ;=== The install profile contains another makefile which will set everything else up

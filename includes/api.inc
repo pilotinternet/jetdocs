@@ -38,28 +38,28 @@ function _jetdocs_get_branches() {
   $branch = new stdClass;
   $branch->branch_name = 'jumpjet';
   $branch->title = 'JumpJet';
-  $branch->directories = $path . '/sites/all/libraries/jumpjet';
+  $branch->directories = $path . '/profiles/jumpjet/libraries/jumpjet';
   $branch->weight = 5;
   $items['jumpjet'] = $branch;
 
   $branch = new stdClass;
   $branch->branch_name = 'drupal_5';
   $branch->title = 'Drupal 5';
-  $branch->directories = $path . '/sites/all/libraries/drupal_5';
+  $branch->directories = $path . '/profiles/jumpjet/libraries/drupal_5';
   $branch->weight = 5;
   $items['drupal_5'] = $branch;
 
   $branch = new stdClass;
   $branch->branch_name = 'drupal_6';
   $branch->title = 'Drupal 6';
-  $branch->directories = $path . '/sites/all/libraries/drupal_6';
+  $branch->directories = $path . '/profiles/jumpjet/libraries/drupal_6';
   $branch->weight = 6;
   $items['drupal_6'] = $branch;
 
   $branch = new stdClass;
   $branch->branch_name = 'drupal_7';
   $branch->title = 'Drupal 7';
-  $branch->directories = $path . '/sites/all/libraries/drupal_7';
+  $branch->directories = $path . '/profiles/jumpjet/libraries/drupal_7';
   $branch->weight = 7;
   $items['drupal_7'] = $branch;
 
