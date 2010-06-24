@@ -9,16 +9,9 @@ core = 6.x
 ; ============================================================================== Modules - The A List
 ; -------------------------------------------------------------------------- CCK
 projects[cck][subdir] = "contrib"
-projects[cck][version] = "2.7"
-; ------------------------------ PATCHED
 
 ; ------------------------------------------------------------------------ VIEWS
 projects[views][subdir] = "contrib"
-projects[views][type] = "module"
-projects[views][download][type] = "cvs"
-projects[views][download][module] = "contributions/modules/views"
-projects[views][download][revision] = "DRUPAL-6--3:2010-05-11"
-; ----------------------------- PATCHED
 
 ; ------------------------------------------------------------------------ TOKEN
 projects[token][subdir] = "contrib"
@@ -27,7 +20,6 @@ projects[token][subdir] = "contrib"
 ; ============================================================================== Modules - Dev
 ; ----------------------------------------------------------------------- CTOOLS
 projects[ctools][subdir] = "dev"
-projects[ctools][version] = "1.6"
 
 ; ------------------------------------------------------------------------ DEVEL
 projects[devel][subdir] = "dev"
@@ -264,11 +256,11 @@ libraries[drupal_6][download][root] = ":pserver:anonymous:anonymous@cvs.drupal.o
 libraries[drupal_6][download][revision] = "DRUPAL-6"
 libraries[drupal_6][download][module] = "drupal"
 
-libraries[developer-docs][download][type] = "cvs"
-libraries[developer-docs][download][root] = ":pserver:anonymous:anonymous@cvs.drupal.org:/cvs/drupal-contrib"
-libraries[developer-docs][download][revision] = "DRUPAL-6--1"
-libraries[developer-docs][download][module] = "developer-docs"
-libraries[developer-docs][destination] = libraries/drupal-6
+;libraries[developer-docs][download][type] = "cvs"
+;libraries[developer-docs][download][root] = ":pserver:anonymous:anonymous@cvs.drupal.org:/cvs/drupal-contrib"
+;libraries[developer-docs][download][revision] = "DRUPAL-6--1"
+;libraries[developer-docs][download][module] = "developer-docs"
+;libraries[developer-docs][destination] = libraries/drupal-6
 ; Testing way to reproduce the cvs command below with Drush Make
 ; cvs -z6 -d:pserver:anonymous:anonymous@cvs.drupal.org:/cvs/drupal-contrib checkout -r DRUPAL-6--1 -d developer-docs contributions/docs/developer
 
