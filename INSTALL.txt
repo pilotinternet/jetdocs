@@ -1,0 +1,37 @@
+# $Id$
+
+JetDocs Install Profile for Drupal
+==================================
+
+For full details of this project, please see README.txt, or the project area at:
+http://atc.pilotinternet.com/jetdocs
+
+
+===== INSTALLATION INSTRUCTIONS =====
+
+REQUIREMENTS
+============
+To install JetDocs you need Drush and Drush_make on your server or localhost.
+Information on these projects and instructions to install them can be found at:
+http://drupal.org/project/drush
+http://drupal.org/project/drush_make
+
+We also recommend using JetDocs under Aegir - using JetDocs to create a
+'platform' that Aegir then manages and creates sites on.
+
+INSTALLATION
+============
+Navigate to the directory where you would like to build your JetDocs platform
+and run the following command:
+
+drush make http://github.com/pilotinternet/jetdocs/raw/master/jetdocs_build.make jetdocs
+
+alternately, you can run:
+wget http://github.com/pilotinternet/jetdocs/raw/master/jetdocs_build.make
+
+Then make any changes to the stub file you wish (eg use vanilla drupal instead
+of Pressflow). Then:
+drush make jetdocs_build.make jetdocs
+
+
+
