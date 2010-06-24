@@ -92,7 +92,7 @@ function jetdocs_profile_modules() {
     'strongarm',
 
     /* API */
-    'grammer_parser',
+    'grammar_parser',
     'job_queue',
 
   );
