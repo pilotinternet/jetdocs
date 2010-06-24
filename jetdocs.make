@@ -256,13 +256,10 @@ libraries[drupal_6][download][root] = ":pserver:anonymous:anonymous@cvs.drupal.o
 libraries[drupal_6][download][revision] = "DRUPAL-6"
 libraries[drupal_6][download][module] = "drupal"
 
-;libraries[developer-docs][download][type] = "cvs"
-;libraries[developer-docs][download][root] = ":pserver:anonymous:anonymous@cvs.drupal.org:/cvs/drupal-contrib"
-;libraries[developer-docs][download][revision] = "DRUPAL-6--1"
-;libraries[developer-docs][download][module] = "developer-docs"
-;libraries[developer-docs][destination] = libraries/drupal-6
-; Testing way to reproduce the cvs command below with Drush Make
-; cvs -z6 -d:pserver:anonymous:anonymous@cvs.drupal.org:/cvs/drupal-contrib checkout -r DRUPAL-6--1 -d developer-docs contributions/docs/developer
+libraries[developer-docs][download][type] = "cvs"
+libraries[developer-docs][download][root] = ":pserver:anonymous:anonymous@cvs.drupal.org:/cvs/drupal-contrib"
+libraries[developer-docs][download][revision] = "DRUPAL-6--1"
+libraries[developer-docs][download][module] = "contributions/docs/developer"
 
 ; ------------------------------------------------------------------------------ Drupal 7 HEAD
 libraries[drupal_7][download][type] = "cvs"

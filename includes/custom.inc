@@ -19,6 +19,7 @@ function _jetdocs_custom(&$context) {
 
     /* Set the Site Name */
     variable_set('site_name', 'JetDocs');
+    variable_set('site_frontpage', 'api');
 
     /* Set the email address for the site */
     variable_set('site_mail', 'webadmin@pilotinternet.com');

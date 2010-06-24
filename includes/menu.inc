@@ -44,11 +44,11 @@ function _jetdocs_setup_menus(&$context) {
    *  install_menu_create_menu_item('<front>', 'Home', '', 'primary-links', 0, 1);
    *  install_menu_create_menu_item('<front>', 'Home', '', 'secondary-links', 0, 1);
    **/
-  install_menu_create_menu_item('<front>', 'Home', '', 'primary-links', 0, 0);
-  install_menu_create_menu_item('api/jet', 'Jet', '', 'primary-links', 0, 1);
-  install_menu_create_menu_item('api/drupal_5', 'Drupal 5', '', 'primary-links', 0, 2);
-  install_menu_create_menu_item('api/drupal_6', 'Drupal 6', '', 'primary-links', 0, 3);
-  install_menu_create_menu_item('api/drupal_7', 'Drupal 7', '', 'primary-links', 0, 4);
+  $menuitemid = install_menu_create_menu_item('<front>', 'Home', '', 'primary-links', 0, 0);
+  $menuitemid = install_menu_create_menu_item('api/jet', 'Jet', '', 'primary-links', 0, 1);
+  $menuitemid = install_menu_create_menu_item('api/drupal_5', 'Drupal 5', '', 'primary-links', 0, 2);
+  $menuitemid = install_menu_create_menu_item('api/drupal_6', 'Drupal 6', '', 'primary-links', 0, 3);
+  $menuitemid = install_menu_create_menu_item('api/drupal_7', 'Drupal 7', '', 'primary-links', 0, 4);
 
 
   /**
