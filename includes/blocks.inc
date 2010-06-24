@@ -32,7 +32,7 @@ function _jetdocs_setup_blocks(&$context) {
    *
    * install_add_block($module, $delta, $theme, $status, $weight = 0, $region = '', $visibility = 0, $pages = '', $custom = 0, $throttle = 0, $title = '')
    */
-  install_add_block('block', $usefullinks, 'singular', 1, 10, 'sidebar');
+  install_add_block('block', $usefullinks, 'singular', 1, 10, 'right');
   install_add_block('block', $usefullinks, 'rubik', 1, -10, 'content');
   install_add_block('block', $pilotcredit, 'singular', 1, 40, 'content');
   install_add_block('block', $pilotcredit, 'rubik', 1, 40, 'content');
@@ -44,11 +44,11 @@ function _jetdocs_setup_blocks(&$context) {
    */
 
   // The devel blocks - frontend
-  install_set_block('api', 'api-search', 'singular', 'sidebar', 1);
-  install_set_block('api', 'navigation', 'singular', 'sidebar', 2);
+  install_set_block('api', 'api-search', 'singular', 'right', 1);
+  install_set_block('api', 'navigation', 'singular', 'right', 2);
 
   // The User Login Block - frontend
-  install_set_block('user', 0, 'singular', 'sidebar', -5);
+  install_set_block('user', 0, 'singular', 'right', -5);
   
   /*
    * Disable an existing block within a theme

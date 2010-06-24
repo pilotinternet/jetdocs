@@ -9,7 +9,7 @@
 /**
  * Branch items for API Site
  */
-function _jetdocs_setup_branches($args, &$context) {
+function _jetdocs_setup_branches(&$context) {
   $items = _jetdocs_get_branches();
 
   // Create branches for API
@@ -19,8 +19,8 @@ function _jetdocs_setup_branches($args, &$context) {
   $context['results'][] = t('Created API branches.');
 
   // Set default API
-  variable_set('api_default_branch', 'jumpjet');
-  $context['results'][] = t('Set default API to JumpJet.');
+  variable_set('api_default_branch', 'jet');
+  $context['results'][] = t('Set default API to Jet.');
 
   // Finish off API setup
   $msg = st('API branches set up');
