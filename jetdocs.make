@@ -270,9 +270,3 @@ libraries[drupal_7][download][root] = ":pserver:anonymous:anonymous@cvs.drupal.o
 libraries[drupal_7][download][revision] = "HEAD"
 libraries[drupal_7][download][module] = "drupal"
 
-
-
-; ------------------------------------------------------------------------------ JumpJet
-libraries[jumpjet][type] = "profile"
-libraries[jumpjet][download][type] = "git"
-libraries[jumpjet][download][url] = "git://github.com/pilotinternet/jumpjet.git"
