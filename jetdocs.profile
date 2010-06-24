@@ -17,6 +17,7 @@
 /**
  * Include files with specialist settings
  */
+require_once dirname(__FILE__) . '/includes/api.inc';
 require_once dirname(__FILE__) . '/includes/blocks.inc';
 require_once dirname(__FILE__) . '/includes/content.inc';
 require_once dirname(__FILE__) . '/includes/menu.inc';
@@ -183,7 +184,7 @@ function _jetdocs_base_settings() {
   global $base_url;
 
   // Theme related.
-  install_default_theme('cube');
+  install_default_theme('singular');
   install_admin_theme('rubik');
   variable_set('node_admin_theme', TRUE);
 
