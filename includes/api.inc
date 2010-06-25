@@ -46,8 +46,10 @@ function _jetdocs_get_branches() {
   $branch = new stdClass;
   $branch->branch_name = 'jet';
   $branch->title = 'Jet';
-  $branch->directories = $path;
-  $branch->excluded_directories = $path . '/profiles/jetdocs/libraries';
+  $branch->directories = $path . '\n' . $path . '/profiles/jetdocs/libraries/developer-docs';
+  $branch->excluded_directories = $path . '/profiles/jetdocs/libraries/drupal_5\n'
+                                    . $path . '/profiles/jetdocs/libraries/drupal_6\n'
+                                    . $path . '/profiles/jetdocs/libraries/drupal_7';
   $branch->weight = 1;
   $items['jet'] = $branch;
 

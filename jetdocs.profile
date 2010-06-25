@@ -225,6 +225,8 @@ function _jetdocs_cleanup($success, $results='') {
   ctools_flush_caches();
   cache_clear_all('*', 'cache', TRUE);
   cache_clear_all('*', 'cache_content', TRUE);
+  
+  drupal_set_message('Your JetDocs site is now live, however the system is now indexing the codebase in order to build all the documentation. This will take a long time, but can be speeded up by running cron more frequently.');
 }
 
 

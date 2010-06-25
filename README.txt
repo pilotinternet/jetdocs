@@ -7,13 +7,13 @@ of Pilot Internet  (www.pilotinternet.com)
 
 ===============================================================================
 
-The idea of JetDocs is to be a better starting point for web developers at
-the beginning of a new project. It assembles the Drupal codebase - including
-core, contrib modules and themes, and external libraries - and it performs a lot
-of the initial configuration so that you can get straight onto the custom work
-you need to do.
+JetDocs is designed to complement the 'Jet' series of install profiles for
+Drupal, by providing a futher install profile that builds a local version of
+the Drupal API documentation, but also including all modules within the Jet
+profiles.
 
-This means you can get started with projects more quickly.
+It can also be used standalone however, in which case it simply creates a local
+version of http://api.drupal.org - which is great for doing development offline.
 
 
 
@@ -43,5 +43,4 @@ CREDITS
 =======
 I studied the install profiles and makefiles of Open Atrium by Development Seed,
 and Open Publish by Phase2. I also liberally borrowed code from each project.
-The 'apisite' profile was also a source of inspiration and code.
 Thanks go to all developers involved.

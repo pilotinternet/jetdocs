@@ -1,6 +1,9 @@
+; $Id$
+
 name = "JetDocs"
+description = "Developer Documentation site profile for the Jet series of Drupal Distributions"
 core = "6.x"
-...
+
 project = "jetdocs"
 project status url = "http://code.pilotinternet.com/fserver"
 version = "6.x-1.0"

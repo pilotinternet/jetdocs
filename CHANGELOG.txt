@@ -5,3 +5,7 @@ from Pilot Internet
 
 CHANGELOG
 
+
+1.0  25th June 2010
+===================
+Initial public release
