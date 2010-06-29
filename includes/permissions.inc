@@ -29,6 +29,7 @@ function _jetdocs_set_permissions(&$context) {
     'edit any comment content',
     'revert revisions',
     'post comments without approval',
+    'access API reference',
   ));
 
   // Setup permissions for editor user
@@ -37,6 +38,7 @@ function _jetdocs_set_permissions(&$context) {
     'edit any comment content',
     'revert revisions',
     'post comments without approval',
+    'access API reference',
   ));
 
   // Setup permissions for staff user
@@ -45,6 +47,7 @@ function _jetdocs_set_permissions(&$context) {
     'delete own comment content',
     'edit own comment content',
     'post comments without approval',
+    'access API reference',
   ));
 
   // Setup permissions for authenticated user
@@ -54,6 +57,7 @@ function _jetdocs_set_permissions(&$context) {
     'access content',
     'create comment content',
     'search content',
+    'access API reference',
   ));
 
   // Setup permissions for anonymous user
@@ -61,6 +65,7 @@ function _jetdocs_set_permissions(&$context) {
     'access comments',
     'access content',
     'search content',
+    'access API reference',
   ));
 
 

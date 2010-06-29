@@ -5,6 +5,9 @@ from Pilot Internet
 
 CHANGELOG
 
+1.1  25th June 2010
+===================
+Minor changes. Removing extraneous files from repository. No code changes
 
 1.0  25th June 2010
 ===================
